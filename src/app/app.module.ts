@@ -8,7 +8,9 @@ import { DirectiveComponent } from './components/directive/directive.component';
 import { FirstUpperPipe } from './pipes/first-upper/first-upper.pipe';
 import { AgePipe } from './pipes/age/age.pipe';
 import { TruncationPipe } from './pipes/truncation/truncation.pipe';
-import { SpecialButtonDirective } from './directives/special-button.directive';
+
+import { SpecialButtonDirective } from './directives/special-button/special-button.directive';
+import { IfDirective } from './directives/if/if.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { SpecialButtonDirective } from './directives/special-button.directive';
     FirstUpperPipe,
     AgePipe,
     TruncationPipe,
-    SpecialButtonDirective
+    SpecialButtonDirective,
+    IfDirective
   ],
   imports: [
     BrowserModule,
