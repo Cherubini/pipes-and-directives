@@ -6,8 +6,8 @@ import { __read } from 'tslib';
 })
 export class IfDirective {
 
-  @Input() set appIf(value: string){
-   if(value==='true'){
+  @Input() set appIf(value: boolean){
+   if(value){
     this.element.nativeElement.style.display= 'none';
    }
   }

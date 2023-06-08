@@ -11,6 +11,7 @@ import { TruncationPipe } from './pipes/truncation/truncation.pipe';
 
 import { SpecialButtonDirective } from './directives/special-button/special-button.directive';
 import { IfDirective } from './directives/if/if.directive';
+import { UnlessDirective } from './directives/unless/unless.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { IfDirective } from './directives/if/if.directive';
     AgePipe,
     TruncationPipe,
     SpecialButtonDirective,
-    IfDirective
+    IfDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
